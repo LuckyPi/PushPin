@@ -19,7 +19,7 @@ The GUI workflow is similar to the PCILeech CLI, first successfully load a KMD (
 * Push and Execute a file on the target as SYSTEM
 
 ### PushPin GUI overview
-![](pushpin_description.png) 
+![](pushpin_description.PNG) 
 
 ### Logging
 PushPin provides a minimal level of logging of actions taken while using the GUI. The PushPinLog.txt log file is created or appended when an action is taken.
