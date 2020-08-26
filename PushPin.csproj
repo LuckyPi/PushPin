@@ -109,7 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="source\push-pin.ico" />
-    <Content Include="source\pushpin_description.PNG" />
+    <Content Include="pushpin_description.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

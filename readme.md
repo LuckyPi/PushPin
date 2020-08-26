@@ -14,12 +14,12 @@ The GUI workflow is similar to the PCILeech CLI, first successfully load a KMD (
 * Load a kernel module into Windows7x64 or Windows 10x64  
 * Unlock Windows 
 * Mount the targets filesystem and memory
-* Mount the targets filesystem and memor:
+* Mount the targets filesystem and memory:
 * SYSTEM or USER command shell
 * Push and Execute a file on the target as SYSTEM
 
 ### PushPin GUI overview
-![](source/pushpin_description.png) 
+![](pushpin_description.png) 
 
 ### Logging
 PushPin provides a minimal level of logging of actions taken while using the GUI. The PushPinLog.txt log file is created or appended when an action is taken.
