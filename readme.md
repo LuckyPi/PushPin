@@ -14,7 +14,6 @@ The GUI workflow is similar to the PCILeech CLI, first successfully load a KMD (
 * Load a kernel module into Windows7x64 or Windows 10x64  
 * Unlock Windows 
 * Mount the targets filesystem and memory
-* Mount the targets filesystem and memory:
 * SYSTEM or USER command shell
 * Push and Execute a file on the target as SYSTEM
 
