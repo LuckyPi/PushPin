@@ -4,7 +4,7 @@
 // Description: PushPin is designed to provide a visual interface wrapper to pcileech
 // PushPin author: JT, jtestman@gmail.com
 // PCILeech author: Ulf Frisk, pcileech@frizk.net
-// Dependencies: PCILeech v4.6 - https://github.com/ufrisk and it's dependencies 
+// Dependencies: PCILeech v4.7 - https://github.com/ufrisk and it's dependencies 
 /*******************************************************************************************************************************/
 
 namespace PushPin
@@ -110,9 +110,10 @@ namespace PushPin
         }
 
         //
-        // ***  WIN 10x64_2 memmap method KMD EXPLOIT *** //
+        // ***  WIN 10x64_3 memmap method KMD EXPLOIT *** //
+        // WIN10_X64_3 is currently stable accross versions of Windows 10 including Windows 10 2004 release
         //
-        private void Button_win10x64_2_Click(object sender, EventArgs e)
+        private void Button_win10x64_3_Click(object sender, EventArgs e)
         {
             try
             {
@@ -121,7 +122,7 @@ namespace PushPin
                 start.UseShellExecute = false;
                 start.CreateNoWindow = true;
                 start.RedirectStandardOutput = true;
-                start.Arguments = "kmdload -kmd WIN10_X64_2 -memmap auto ";
+                start.Arguments = "kmdload -kmd WIN10_X64_3 -memmap auto ";
 
                 //
                 // Start the process.
@@ -137,7 +138,7 @@ namespace PushPin
 
                         textBox_status.Text = result;
 
-                        Class_action.Action = "Win10x64_2 KMD";
+                        Class_action.Action = "Win10x64_3 KMD";
                         Class_status.Status = result;
                     }
                 }

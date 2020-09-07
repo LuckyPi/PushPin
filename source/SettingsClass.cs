@@ -4,7 +4,7 @@
 // Description: PushPin is designed to provide a visual interface wrapper to pcileech
 // PushPin author: JT, jtestman@gmail.com
 // PCILeech author: Ulf Frisk, pcileech@frizk.net
-// Dependencies: PCILeech v4.6 - https://github.com/ufrisk and it's dependencies
+// Dependencies: PCILeech v4.7 - https://github.com/ufrisk and it's dependencies
 /*******************************************************************************************************************************/
 
 namespace PushPin

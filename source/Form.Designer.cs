@@ -82,18 +82,18 @@
             // 
             // button_win10x64_2
             // 
-            this.button_win10x64_2.Location = new System.Drawing.Point(143, 82);
-            this.button_win10x64_2.Name = "button_win10x64_2";
+            this.button_win10x64_2.Location = new System.Drawing.Point(143, 19);
+            this.button_win10x64_2.Name = "button_win10x64_3";
             this.button_win10x64_2.Size = new System.Drawing.Size(122, 50);
             this.button_win10x64_2.TabIndex = 0;
             this.button_win10x64_2.TabStop = false;
-            this.button_win10x64_2.Text = "Win10x64_2";
+            this.button_win10x64_2.Text = "Win10x64_3";
             this.button_win10x64_2.UseVisualStyleBackColor = true;
-            this.button_win10x64_2.Click += new System.EventHandler(this.Button_win10x64_2_Click);
+            this.button_win10x64_2.Click += new System.EventHandler(this.Button_win10x64_3_Click);
             // 
             // button_win10x64
             // 
-            this.button_win10x64.Location = new System.Drawing.Point(143, 20);
+            this.button_win10x64.Location = new System.Drawing.Point(143, 82);
             this.button_win10x64.Name = "button_win10x64";
             this.button_win10x64.Size = new System.Drawing.Size(122, 50);
             this.button_win10x64.TabIndex = 0;
