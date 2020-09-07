@@ -11,7 +11,7 @@ If you're not sure what PCILeech is please read up on the project first. https:/
 
 The GUI workflow is similar to the PCILeech CLI, first successfully load a KMD (KMD LOADERS) and then use the KMD address to load Kernel-mode implants (ACCESS). The following PCILeech kmdload, commands and Kernel-mode implants specfic to Windows Operating Systems are included. 
 
-* Load a kernel module into Windows 7 or Windows 10 64-bit operating system  
+* Load a kernel module into Windows 7 or Windows 10 64-bit operating systems  
 * Unlock Windows 
 * Mount the targets filesystem and memory
 * SYSTEM or USER command shell
@@ -21,7 +21,7 @@ The GUI workflow is similar to the PCILeech CLI, first successfully load a KMD (
 ![](pushpin_description.PNG) 
 
 ### KMD Loader Update
-Please use WIN10_X64_3 and then WIN10_X64 if it fails. WIN10_X64_3 is currently stable accross versions of Windows 10 including Windows 10 2004 release. 
+Please use WIN10_X64_3 and then WIN10_X64 if it fails. WIN10_X64_3 is currently stable accross versions of Windows 10, including Windows 10 2004 release. 
 
 ### Logging
 PushPin provides a minimal level of logging of actions taken while using the GUI. The PushPinLog.txt log file is created or appended when an action is taken.
