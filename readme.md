@@ -27,7 +27,7 @@ Please use WIN10_X64_3 and then WIN10_X64 if it fails. WIN10_X64_3 is currently 
 PushPin provides a minimal level of logging of actions taken while using the GUI. The PushPinLog.txt log file is created or appended when an action is taken.
 
 ## System Requirements
-Tested with [PCILeech Version 4.7](https://github.com/ufrisk/pcileech) and functions correctly with the commands listed above. You can download PCILeech precompiled binarys [here](https://github.com/ufrisk/pcileech/releases/download/v4.7/PCILeech_files_and_binaries_v4.7-20200907.zip).     
+Tested with [PCILeech Version 4.8](https://github.com/ufrisk/pcileech) and functions correctly with the commands listed above. You can download PCILeech precompiled binarys [here](https://github.com/ufrisk/pcileech/releases/tag/v4.8).     
 
 PushPin is developed in C# targeted for .NET Framework 4.5. Compile or use the precompiled PushPin.exe binary and place it into the the same directory as pcileech.exe. [Download the latest PushPin.exe](https://github.com/LuckyPi/PushPin/releases/latest).
 
